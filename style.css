@@ -1,9 +1,11 @@
 .border {
-    border: 1px solid grey;
+    border: 0.25px solid grey;
+    transition: all 0.7s;
+    flex: 1;
 }
  
 .pad {
-    padding: 15px;
+    padding: 0px;
 }
 
 .row {
@@ -15,4 +17,12 @@
 .container {
     display: flex;
     flex-direction: column;
+    width: 800px;
+    height: 800px;
 }
+
+.fill {
+    background-color: black;
+    transition:all 0.7s;
+}
+
